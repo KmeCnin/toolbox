@@ -14,3 +14,6 @@ This helper is useful in order to strip optionals characters from an input strin
 
 *For example* we could have an input trying to match a twitter username from url, like `twitter.com/Foo`, `Foo/status` or `twitter.com/Foo/status`.  
 But we only want to keep the *username*. So we define `https://twitter.com/` as the **prefix** before the username and `/status/` as the **suffix** after the username. After applying `stripPrefix` and `stripSuffix`, we can get the stripped result which should be the username if the input was conform to twitter url pattern.
+
+## CollectionIterator
+Provide a functionnal way to work with PHP collections.
